@@ -426,7 +426,7 @@ footer ul a:hover{
 .form_section{
     display: grid;
     place-items: center;
-    height: 130vh;
+    height: 100vh;
 }
 .form_section-container{
     width: var(--form-width);
