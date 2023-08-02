@@ -426,7 +426,7 @@ footer ul a:hover{
 .form_section{
     display: grid;
     place-items: center;
-    height: 130vh;
+    height: 100vh;
 }
 .form_section-container{
     width: var(--form-width);
@@ -453,15 +453,9 @@ form {
 .form_control{
     display: flex;
     flex-direction: column;
-    gap: 0.6rem;
+    gap: 0.4rem;
 }
 
-/*================== add post html ============== */
-.form_control.inline{
-    flex-direction: row;
-    align-items: center;
-}
-/*================== add post html end============== */
 input, textarea, select
 {
     padding: 0.8rem 1.4rem;
